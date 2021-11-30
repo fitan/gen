@@ -1,8 +1,8 @@
 package check
 
 import (
+	"fitan/gen/internal/parser"
 	"fmt"
-	"gorm.io/gen/internal/parser"
 	"strconv"
 	"strings"
 )

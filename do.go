@@ -12,7 +12,7 @@ import (
 	"gorm.io/gorm/clause"
 	"gorm.io/gorm/schema"
 
-	"gorm.io/gen/field"
+	"fitan/gen/field"
 )
 
 var (

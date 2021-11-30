@@ -10,8 +10,8 @@ import (
 	"gorm.io/gorm/schema"
 	"gorm.io/gorm/utils/tests"
 
-	"gorm.io/gen/internal/model"
-	"gorm.io/gen/internal/parser"
+	"fitan/gen/internal/model"
+	"fitan/gen/internal/parser"
 )
 
 /*

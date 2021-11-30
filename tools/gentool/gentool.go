@@ -6,11 +6,11 @@ import (
 	"log"
 	"strings"
 
+	"fitan/gen"
 	"gorm.io/driver/mysql"
 	"gorm.io/driver/postgres"
 	"gorm.io/driver/sqlite"
 	"gorm.io/driver/sqlserver"
-	"gorm.io/gen"
 	"gorm.io/gorm"
 )
 

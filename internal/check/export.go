@@ -7,8 +7,8 @@ import (
 
 	"gorm.io/gorm"
 
-	"gorm.io/gen/internal/model"
-	"gorm.io/gen/internal/parser"
+	"fitan/gen/internal/model"
+	"fitan/gen/internal/parser"
 )
 
 // CheckStructs check the legitimacy of structures

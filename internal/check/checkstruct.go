@@ -8,9 +8,9 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
 
-	"gorm.io/gen/field"
-	"gorm.io/gen/internal/model"
-	"gorm.io/gen/internal/parser"
+	"fitan/gen/field"
+	"fitan/gen/internal/model"
+	"fitan/gen/internal/parser"
 )
 
 // BaseStruct struct info in generated code

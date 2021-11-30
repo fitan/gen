@@ -6,7 +6,7 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
 
-	"gorm.io/gen/field"
+	"fitan/gen/field"
 )
 
 type (

@@ -6,7 +6,7 @@ import (
 
 	"gorm.io/gorm"
 
-	"gorm.io/gen/internal/model"
+	"fitan/gen/internal/model"
 )
 
 const (

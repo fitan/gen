@@ -1,4 +1,4 @@
-module gorm.io/gen
+module fitan/gen
 
 go 1.14
 

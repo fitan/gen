@@ -2,7 +2,7 @@
 
 [![GoVersion](https://img.shields.io/github/go-mod/go-version/go-gorm/gen)](https://github.com/go-gorm/gen/blob/master/go.mod)
 [![Release](https://img.shields.io/github/v/release/go-gorm/gen)](https://github.com/go-gorm/gen/releases)
-[![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-blue?logo=go&logoColor=white)](https://pkg.go.dev/gorm.io/gen?tab=doc)
+[![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-blue?logo=go&logoColor=white)](https://pkg.go.dev/fitan/gen?tab=doc)
 [![Go Report Card](https://goreportcard.com/badge/github.com/go-gorm/gen)](https://goreportcard.com/report/github.com/go-gorm/gen)
 [![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 [![OpenIssue](https://img.shields.io/github/issues/go-gorm/gen)](https://github.com/go-gorm/gen/issues?q=is%3Aopen+is%3Aissue)
@@ -131,13 +131,13 @@
 1.安装完Go(version 1.14+)之后，通过下面的命令安装gen。
 
 ```bash
-go get -u gorm.io/gen
+go get -u fitan/gen
 ```
 
 2.导入到你的工程:
 
 ```go
-import "gorm.io/gen"
+import "fitan/gen"
 ```
 
 ## <span id="quick-start">快速开始</span>
@@ -152,7 +152,7 @@ $ cat generate.go
 ```go
 package main
 
-import "gorm.io/gen"
+import "fitan/gen"
 
 // generate code
 func main() {
@@ -300,7 +300,7 @@ g.WithDataTypeMap(dataMap)
 创建字段示例:
 
 ```go
-import "gorm.io/gen/field"
+import "fitan/gen/field"
 
 // create a new generic field map to `generic_a`
 a := field.NewField("table_name", "generic_a")
@@ -325,7 +325,7 @@ t := field.NewTime("user", "create_time")
 // generated code
 package query
 
-import "gorm.io/gen"
+import "fitan/gen"
 
 // struct map to table `users` 
 type user struct {
@@ -1828,7 +1828,7 @@ users, err := u.WithContext(ctx).Clauses(hints.ForceIndex("idx_user_name", "idx_
 安装gen命令行工具:
 
 ```bash
-go install gorm.io/gen/tools/gentool@latest
+go install fitan/gen/tools/gentool@latest
 ```
 
 使用参数:

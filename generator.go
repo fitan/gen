@@ -12,11 +12,11 @@ import (
 	"strings"
 	"text/template"
 
+	"fitan/gen/internal/check"
+	"fitan/gen/internal/model"
+	"fitan/gen/internal/parser"
+	tmpl "fitan/gen/internal/template"
 	"golang.org/x/tools/imports"
-	"gorm.io/gen/internal/check"
-	"gorm.io/gen/internal/model"
-	"gorm.io/gen/internal/parser"
-	tmpl "gorm.io/gen/internal/template"
 	"gorm.io/gorm"
 	"gorm.io/gorm/utils/tests"
 )

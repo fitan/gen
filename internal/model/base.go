@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"strings"
 
-	"gorm.io/gen/field"
-	"gorm.io/gen/internal/utils"
+	"fitan/gen/field"
+	"fitan/gen/internal/utils"
 )
 
 type Status int
